@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>صفحتي</title>
+    <style>
+        body {
+            background: linear-gradient(to right, #d1c4e9, #5c6bc0); /* بنفسجي فاتح إلى أزرق متوسط */
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 100px;
+            height: 100vh;
+            color: white;
+        }
+
+        button {
+            padding: 15px 30px;
+            font-size: 18px;
+            margin: 10px;
+            cursor: pointer;
+            border-radius: 8px;
+            border: none;
+            background-color: #4CAF50;
+            color: white;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="alert('انت على الصفحة الرئيسية!')">زر الصفحة الرئيسية</button>
+    <button onclick="window.location.href='https://chat.openai.com/'">chatgpt</button>
+</body>
+</html>
